@@ -1,0 +1,10 @@
+Atmel Studio installieren
+WinAVR installieren
+
+USBtinyisp verdrahten
+
+Mit der Comandozeile in den Releasordners des AtmelStudio Programms navigieren,
+und dort folgende Codezeile ausführen
+
+
+avrdude -c usbtiny -p attiny2313 -U flash:w:test_leds.hex
